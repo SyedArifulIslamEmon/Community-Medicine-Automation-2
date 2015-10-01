@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Center.master.cs" Inherits="CommunityMedicineAutomatuion_App.Center" %>
+
+
+
+<!DOCTYPE HTML>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Center Activity</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+	<form id="form1" runat="server">
+	<div id="header">
+		<div>
+			<div class="logo">
+				<asp:LinkButton runat="server" Text="Home" OnClick="Home_Click" >Community Medicine</asp:LinkButton>
+			</div>
+			<ul id="navigation">
+				<li class="active">
+					<a href="CenterActivity.aspx" >Center Activity</a>
+				</li>
+				<li>
+					<asp:LinkButton runat="server" Text="Home" OnClick="Home_Click" ></asp:LinkButton>
+				</li>
+                <li color="red" id="logout"><asp:LinkButton runat="server" Text="Log Out" OnClick="LogOut_Click" ></asp:LinkButton></li>
+				
+			</ul>
+		</div>
+	</div>
+    <div class="clearfix">
+        <center>
+         <asp:ContentPlaceHolder ID="ContentBody" runat="server"></asp:ContentPlaceHolder></center>
+        
+    </div>
+	<div id="footer">
+		<div class="clearfix">
+			
+			<p>
+				© TourisT. All Rights Reserved.
+			</p>
+		</div>
+	</div>
+    </form>
+</body>
+</html>

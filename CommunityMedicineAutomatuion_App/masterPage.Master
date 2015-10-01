@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterPage.master.cs" Inherits="CommunityMedicineAutomatuion_App.masterPage" %>
+
+<!DOCTYPE HTML>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Community Medicine Automation</title>   
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+	<div id="header">
+		<div>
+			<div class="logo">
+				<a href="index.aspx">Community Medicine </a>
+			</div>
+			<ul id="navigation">
+				<li class="active">
+					<a href="index.aspx">Home</a>
+				</li>
+				<li>
+					<a href="UI/HeadOffice/HeadOfficeActivity.aspx">Head Office Activity</a>
+				</li>
+				<li>
+					<a href="UI/Center/CenterActivity.aspx">Center Activity</a>
+				</li>
+				
+				
+			</ul>
+		</div>
+	</div>
+	<div id="adbox">
+		<div class="clearfix">
+			<img src="images/treatment.PNG" alt="Img" height="342" width="368">
+			<div>
+				<h1>Welcome</h1>
+				<br/>
+				<p>
+					Medical stores management in hospitals is a tedious and time consuming chore with limited resources tasked for the purpose and poor penetration of Information Technology. The process of automation is slow paced due to various inherent factors and is being challenged by the increasing inventory loads and escalating budgets for procurement of drugs.  <span><a href="index.aspx" class="btn">Try It Now!</a><b></b></span>
+				</p>
+			</div>
+		</div>
+	</div>
+	
+	<div id="footer">
+		
+			
+			<p>
+				© TourisT. All Rights Reserved.
+			</p>
+		</div>
+	
+</body>
+</html>

@@ -1,0 +1,13 @@
+For Head Office Login:
+
+Authentication Code: admin
+Password: admin
+
+For Center Login:
+
+Authentication Code: Lakhmibazar-06-01
+Password: 1JI8CQ8I 
+
+
+Authentication  Code: Chasara-04-01
+Password: GGCEMNZU 

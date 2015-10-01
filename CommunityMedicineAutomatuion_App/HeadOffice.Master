@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HeadOffice.master.cs" Inherits="CommunityMedicineAutomatuion_App.HeadOffice" %>
+
+<!DOCTYPE HTML>
+<!-- Website template by freewebsitetemplates.com -->
+<html>
+<head>
+    <link href="jquery-ui-themes-1.9.2/themes/base/jquery-ui.css" rel="stylesheet" />
+    <link href="jquery-ui-themes-1.9.2/themes/smoothness/jquery-ui.css" rel="stylesheet" />
+	<meta charset="UTF-8">
+	<title>Head Office Activity</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+    <script src="Scripts/jquery-2.1.4.min.js"></script>
+    <script src="Scripts/jquery-ui-1.11.4.min.js"></script>
+    <script src="Scripts/jquery-ui-1.11.4.js"></script>
+     <script>
+         $(document).ready(function () {
+             $("#formDate").datepicker();
+             $("#toDate").datepicker();
+
+         });
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+	<div id="header">
+		<div>
+			<div class="logo">
+				<asp:LinkButton runat="server" Text="Home" OnClick="Home_Click" >Community Medicine </asp:LinkButton>
+			</div>
+			<ul id="navigation">
+				
+				
+                <li>
+                    <asp:LinkButton runat="server" Text="Home" OnClick="Home_Click" >Home</asp:LinkButton>
+                </li>
+                <li class="active">
+					<asp:LinkButton runat="server" Text="Home" OnClick="SelectHead_Click" >Head Office Activity</asp:LinkButton>
+				</li>
+			</ul>
+		</div>
+	</div>
+    <div class="clearfix">
+    <asp:ContentPlaceHolder ID="ContentBody" runat="server"></asp:ContentPlaceHolder>
+        
+    </div>
+	<div id="footer">
+		
+			
+			<p>
+				© TourisT. All Rights Reserved.
+			</p>
+		</div>
+       </form>
+    
+</body>
+  
+</html>
